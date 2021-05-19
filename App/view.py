@@ -37,7 +37,14 @@ operación solicitada
 def printMenu():
     print("Bienvenido")
     print("1- Cargar información en el catálogo")
-    print("2- ")
+    print("2- Identificar clústeres de comunicación.")
+    print("Identificar los puntos de conexión críticos de la red.")
+    print("4- La ruta de menor distancia.")
+    print("5- Identificar la infraestructura crítica de la red.")
+    print("6- Análisis de fallas.")
+    print("7- Los mejores canales para transmitir.")
+    print("8- La mejor ruta para comunicarme.")
+    print("Graficando los grafos.")
 
 catalog = None
 
@@ -53,6 +60,21 @@ while True:
     elif int(inputs[0]) == 2:
         pass
 
+    elif int(inputs[0]) == 3:
+        pass
+    elif int(inputs[0]) == 4:
+        pass
+    elif int(inputs[0]) == 5:
+        pass
+    elif int(inputs[0]) == 6:
+        pass
+    elif int(inputs[0]) == 7:
+        pass
+    elif int(inputs[0]) == 8:
+        pass
+    elif int(inputs[0]) == 9:
+        pass
+    
     else:
         sys.exit(0)
 sys.exit(0)
